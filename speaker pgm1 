@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Page - Aaron Sorkin</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Aaron Sorkin</h1>
+            <p>Screenwriter, Director, Producer</p>
+        </header>
+
+        <section>
+            <figure>
+                <img src="sorkin_desk260.jpg" alt="Aaron Sorkin at desk" width="260">
+                <figcaption>
+                    "You don't want to do research because it's distracting, but at the same time,
+                    I want the details."
+                </figcaption>
+            </figure>
+
+            <p>Aaron Sorkin is an acclaimed screenwriter, director, and producer. He is known for his work on
+                projects such as <cite>The West Wing</cite>, <cite>The Social Network</cite>, and
+                <cite>Steve Jobs</cite>.</p>
+
+            <p>Born on June 9, 1961, in New York City, Sorkin developed a passion for storytelling at an early
+                age. His distinctive style, characterized by sharp dialogue and gripping narratives, has
+                earned him critical acclaim and numerous awards.</p>
+
+            <p>Throughout his career, Sorkin has been recognized for his ability to capture the complexities of
+                human relationships and societal issues. His dedication to authenticity and attention to
+                detail make his work stand out in the world of entertainment.</p>
+        </section>
+
+        <footer>
+            <p>Contact Aaron Sorkin: <a href="mailto:info@aaronsorkin.com">info@aaronsorkin.com</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
