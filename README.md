@@ -1,2 +1,2 @@
 # html-pgm1
-speaker startup code 
+create a html page for a speaker
