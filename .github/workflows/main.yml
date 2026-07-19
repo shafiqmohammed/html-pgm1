@@ -1,0 +1,52 @@
+name: Speaker Page Autograding
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Test 1 - Main Heading
+        run: npx jest -t "Main heading exists"
+
+      - name: Test 2 - Header
+        run: npx jest -t "Header element exists"
+
+      - name: Test 3 - Section
+        run: npx jest -t "Section element exists"
+
+      - name: Test 4 - Figure
+        run: npx jest -t "Figure element exists"
+
+      - name: Test 5 - Image Width
+        run: npx jest -t "Image width is 260"
+
+      - name: Test 6 - Figcaption
+        run: npx jest -t "Figcaption exists"
+
+      - name: Test 7 - Cite
+        run: npx jest -t "Contains cite element"
+
+      - name: Test 8 - Footer
+        run: npx jest -t "Footer exists"
+
+      - name: Test 9 - Mail Link
+        run: npx jest -t "Mailto link exists"
+
+      - name: Test 10 - Main Element
+        run: npx jest -t "Main element exists"
