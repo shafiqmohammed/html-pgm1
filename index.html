@@ -1,6 +1,161 @@
+
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Sorkin | Speaker</title>
 
-/* Write your HTML code to design a page for a speaker */
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+        }
 
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #9ca3af;
+        }
+
+        .profile {
+            background: #1f2937;
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        img {
+            width: 260px;
+            border-radius: 12px;
+        }
+
+        .content {
+            line-height: 1.7;
+        }
+
+        .content h2 {
+            color: #60a5fa;
+        }
+
+        blockquote {
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 4px solid #60a5fa;
+            font-style: italic;
+            color: #d1d5db;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #9ca3af;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 650px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            img {
+                width: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Aaron Sorkin</h1>
+            <p>Screenwriter • Director • Producer</p>
+        </header>
+
+        <section class="profile">
+
+            <figure>
+                <img src="sorkin_desk260.jpg"
+                     alt="Aaron Sorkin at his desk">
+            </figure>
+
+            <div class="content">
+
+                <h2>About Aaron</h2>
+
+                <blockquote>
+                    "You don't want to do research because it's distracting,
+                    but at the same time, I want the details."
+                </blockquote>
+
+                <p>
+                    Aaron Sorkin is an acclaimed screenwriter, director,
+                    and producer known for his distinctive writing style
+                    and sharp dialogue.
+                </p>
+
+                <p>
+                    His famous works include
+                    <cite>The West Wing</cite>,
+                    <cite>The Social Network</cite>, and
+                    <cite>Steve Jobs</cite>.
+                </p>
+
+                <p>
+                    Born on June 9, 1961, in New York City,
+                    Sorkin developed a passion for storytelling at
+                    an early age.
+                </p>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>
+                Contact:
+                <a href="mailto:info@aaronsorkin.com">
+                    info@aaronsorkin.com
+                </a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
 </html>
