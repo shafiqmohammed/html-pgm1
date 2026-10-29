@@ -1,6 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 
-/* Write your HTML code to design a page for a speaker */
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>San Joaquin Valley Town Hall</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f5f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #17324d;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 17px;
+            color: #d8e6f2;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #17324d;
+            margin-top: 0;
+            border-bottom: 2px solid #d9e2ec;
+            padding-bottom: 10px;
+        }
+
+        .date {
+            color: #777;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .cast {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .person {
+            background: #eef4f8;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .person strong {
+            display: block;
+            color: #17324d;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .review {
+            background: #f8fafc;
+            border-left: 5px solid #17324d;
+            padding: 18px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .review p {
+            margin: 0;
+            font-style: italic;
+        }
+
+        footer {
+            background: #17324d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>San Joaquin Valley Town Hall</h1>
+        <p>Featured Speaker & Movie Presentation</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Andrew Ross Sorkin</h2>
+
+            <div class="date">November 16, 2010</div>
+
+            <p>
+                New York Times columnist and author, Andrew Ross Sorkin, has been
+                described as the most famous financial journalist of his generation.
+                His book, <strong>Too Big to Fail</strong>, was the first
+                behind-the-scenes account of the financial crisis that led to our
+                current recession.
+            </p>
+
+            <p>
+                The Economist, The Financial Times, and Business Week all named
+                <strong>Too Big to Fail</strong> one of the best books of the year.
+                The book was published by Viking October 20, 2009. The book was
+                adapted as a movie by HBO Films and premiered on HBO on May 23, 2011.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>The Cast of Too Big to Fail</h2>
+
+            <div class="cast">
+
+                <div class="person">
+                    <strong>William Hurt</strong>
+                    Hank Paulson
+                </div>
+
+                <div class="person">
+                    <strong>Paul Giamatti</strong>
+                    Ben Bernanke
+                </div>
+
+                <div class="person">
+                    <strong>Billy Crudup</strong>
+                    Timothy Geithner
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Movie Reviews</h2>
+
+            <div class="review">
+                <p>
+                    "Lots of heat but not very much light. It came across as a kind
+                    of daytime soap opera version showing the personalities of the
+                    players rather than dealing with the nuts and bolts of what
+                    really happened."
+                </p>
+            </div>
+
+            <div class="review">
+                <p>
+                    "I am watching this for the 3rd time, trying to understand how
+                    this large group of capitalist pigs could royally screw their
+                    families, descendants, neighbors, countrymen and the rest of
+                    the whole world with absolutely no compassion."
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Prepared by: Your Name</p>
+        <p>Date: August 29, 2026</p>
+    </footer>
+
+</body>
 
 </html>
